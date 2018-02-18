@@ -1,57 +1,15 @@
-@media all and (min-width:1170px) {
-    body {
-        margin: 0;
-        font-family: "verdana";
-    }
+@media all and (min-width:992px) and (max-width:1169px) {
 
-    .tlo {
-        background-image: url('../obrazy/man-1.jpg');
-        height: 100vh;
-
-        background-size: cover;
-        background-position: center;
-        position: relative;
-    }
-
-    header {
-        margin: 0 0;
-        color: #fff;
-        font-weight: 900;
-        position: absolute;
-        top: 50%;
-        left: 50px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h1 {
-        font-size: 45px;
-    }
-}
-
-@media all and (min-width:992px) and (max-width:1170px) {
-    body {
-        margin: 0;
-        font-family: "verdana";
-    }
 
     .tlo {
         background-image: url('../obrazy/man-2.jpg');
         height: 70vh;
-        background-size: cover;
-        background-position: center;
-        position: relative;
     }
 
     header {
-        margin: 0 0;
-        color: #fff;
-        font-weight: 900;
-        position: absolute;
+        display: inline;
         top: 15%;
-        right: 60px;
+        left: 60%
     }
 
     h2 {
@@ -63,30 +21,18 @@
     }
 }
 
-@media all and (max-width:992px){
-      body {
-        margin: 0;
-        font-family: "verdana";
-    }
-
+@media all and (max-width:992px) {
     .tlo {
         background-image: url('../obrazy/man-1.jpg');
         height: 50vh;
-        background-size: cover;
-        background-position: center;
-        position: relative;
     }
 
     header {
-        margin: 0 0;
         color: #000;
-        font-weight: 900;
-        position: absolute;
         text-align: center;
-        top: 420px;
+        top: 100%;
         left: 50%;
         transform: translate(-50%);
-     
     }
 
     h2 {
@@ -96,5 +42,5 @@
     h1 {
         font-size: 35px;
     }
-    
+
 }
